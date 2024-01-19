@@ -1,0 +1,103 @@
+h1{
+    color : blue;
+    font-size: 50px;
+}
+#mssv   {
+    color : white;
+    font-size: 30px;
+}
+.hoten {
+    color : green;
+    font-size: 30px;
+}
+.gioitinh {
+    color : green;
+    font-size: 30px;
+}
+/*Margin 
+bottom
+top
+left
+right
+kế thừa top, bottom, left, right
+*/
+.number1{
+    color : red;
+    font-size: 30px;
+    font-weight: bold; /* độ đậm */
+    padding: 16px; /* độ lề */
+    margin-bottom: 50px; /* độ lề dưới */
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 2px; /* độ dày */
+    border-style : solid; /* kiểu viền */
+    border-radius:50px;/* bo tròn */
+    border:10px solid blue;/* độ dày */
+    border-color:blue;/* màu viền */
+    background-attachment: fixed;/* ảnh nền */
+    background-color: bisque;/* màu nền */
+}
+.number2{
+    color : red;
+    font-size: 30px;
+    font-weight: bold; 
+    border : 1px solid black;
+    padding-top : 50px; 
+    margin-bottom: 8px; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,113,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.number3{
+    color : red;
+    font-size: 30px;
+    font-weight: bold; 
+    padding: 16px; 
+    margin-bottom: 8px; 
+    border-width: 1px; 
+    border-style : solid; 
+    border-radius:5px;
+    border-color:aquamarine;
+    background-color: #DDD;
+}
+.hhtmldlg{
+    color : red;
+    margin-bottom: 8px; 
+    border-width: 1px; 
+    border-color:aquamarine;
+}
+/*position
+    static
+    relative
+    absolute
+    fixed
+    sticky
+*/
+.container{
+    background-color: #DDD;
+    height : 30vh;
+    padding: 20px;
+    position: relative;
+}
+.lock{
+    height: 50px;
+}
+.lock1{
+    background-color: aquamarine;
+    position: absolute;
+    bottom:0px;
+
+}
+.lock2{
+    background-color: blue;
+    position: relative;
+}
+.lock3{
+    
+    position: sticky;
+    top: 0;
+}
+section{
+    background-color: yellow;
+    height: 100vh;
+}
